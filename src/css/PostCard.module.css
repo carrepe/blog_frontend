@@ -1,0 +1,25 @@
+.post {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.postImg {
+  width: 30%;
+  overflow: hidden;
+}
+.postImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.info {
+  flex: 1;
+}
+.info > * {
+  padding: 0.5rem 0;
+}
+
+.post:hover img {
+  transform: scale(1.1);
+}

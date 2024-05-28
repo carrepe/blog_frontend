@@ -1,0 +1,47 @@
+.wrap {
+  overflow: hidden;
+}
+.mw {
+  max-width: 800px;
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+
+/* h1~ h6 */
+h2 {
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+/* header start */
+.hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hd h1 {
+  font-size: 3rem;
+  cursor: pointer;
+}
+.hd nav {
+  display: flex;
+  gap: 1rem;
+}
+.hd nav a {
+  background-color: lightcyan;
+  padding: 0.5rem 1rem;
+}
+/* header end */
+
+.postsCon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.postsCon article:first-of-type {
+  flex-direction: column;
+}
+.postsCon article:first-of-type > div:first-of-type {
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.register {
+  padding: 100px 0;
+}
+.register h2 {
+  text-align: center;
+}
+.register form {
+  max-width: 400px;
+  width: calc(100% - 2rem);
+  margin: auto;
+  text-align: center;
+}
+
+.register input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.register button {
+  padding: 1rem;
+}
+
+.register > p {
+  text-align: center;
+  padding: 1rem 0;
+}
+.register > p a {
+  color: tomato;
+}
+.register form > span {
+  display: block;
+  font-size: 0.7rem;
+  color: tomato;
+  text-align: left;
+  padding-top: 0.25rem;
+}

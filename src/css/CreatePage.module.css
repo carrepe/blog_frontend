@@ -1,0 +1,29 @@
+.writeCon {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.writeCon > label {
+  width: 180px;
+  padding: 1rem;
+}
+.writeCon > input,
+.writeCon > div {
+  box-sizing: border-box;
+  width: calc(100% - 180px - 1rem);
+}
+.writeCon > input {
+  padding: 1rem;
+}
+.writeCon > p {
+  width: 100%;
+  padding-left: 200px;
+  font-size: 0.75rem;
+  color: tomato;
+}
+
+.smallImgCon img {
+  width: 50px;
+}

@@ -1,0 +1,15 @@
+.commentsArea > div {
+  display: flex;
+  gap: 1rem;
+}
+.commentsArea > div > textarea {
+  width: calc(100% - 60px - 1rem);
+  box-sizing: border-box;
+}
+.commentsArea button {
+  width: 60px;
+}
+.commentsArea > ul > li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted lightslategrey;
+}
